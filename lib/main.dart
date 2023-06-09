@@ -1,16 +1,16 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
 
-void main() => runApp(const DicePage());
+void main() => runApp(const Game());
 
-class DicePage extends StatefulWidget {
-  const DicePage({Key? key}) : super(key: key);
+class Game extends StatefulWidget {
+  const Game({Key? key}) : super(key: key);
 
   @override
-  State<DicePage> createState() => _DicePageState();
+  State<Game> createState() => _GameState();
 }
 
-class _DicePageState extends State<DicePage> {
+class _GameState extends State<Game> {
   @override
   void initState() {
     super.initState();
